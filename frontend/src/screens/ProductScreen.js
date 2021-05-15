@@ -76,7 +76,7 @@ function ProductScreen({ match, history }) {
                                             <ListGroup.Item>
                                                 <Row>
                                                     <Col>Qty</Col>
-                                                    <Col>
+                                                    <Col xs='auto' className='my-1'>
                                                         <Form.Control
                                                             as="select"
                                                             value={qty}
